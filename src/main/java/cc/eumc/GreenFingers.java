@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// 本地化不完全 —— 754503921
 public class GreenFingers extends JavaPlugin {
 
     public static Plugin instance;

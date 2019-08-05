@@ -62,6 +62,7 @@ public class GreenFingersListener implements Listener {
             }
         }
         else {
+            // 大量装箱拆箱的低性能 —— 754503921
             for (Integer x = bx - radius; x <= bx + radius; x++) {
                 for (Integer y = by - radius; y <= by + radius; y++) {
                     for (Integer z = bz - radius; z <= bz + radius; z++) {
